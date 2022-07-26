@@ -1,0 +1,48 @@
+body {
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(a.jpg);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.img {
+    width: 120px;
+}
+
+.header {
+    background-color: aliceblue;
+    color: crimson;
+}
+
+.shake-animation {
+    animation: shake 1s 1;
+}
+
+@keyframes shake {
+    0% {
+        transform: translateX(-25px);
+    }
+
+    20% {
+        transform: translateX(25px);
+    }
+
+    40% {
+        transform: translateX(-25px);
+    }
+
+    60% {
+        transform: translateX(25px);
+    }
+
+    80% {
+        transform: translateX(-25px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+}
